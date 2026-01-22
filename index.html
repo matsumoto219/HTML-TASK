@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>サイト模写</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <!-- logo -->
+        <a href="https://camp.potepan.com" class="header__logo">
+          <!-- PC -->
+          <img
+            src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/header-logo.png"
+            alt="POTEPAN CAMP"
+            class="header__logo--pc"
+          >
+
+          <!-- SP -->
+          <img
+            src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/header-logo-sp.png"
+            alt="POTEPAN CAMP"
+            class="header__logo--sp"
+          >
+        </a>
+
+        <!-- menu -->
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li><a href="https://camp.potepan.com/content">CONTENT<br><span>学習内容</span></a></li>
+            <li><a href="https://camp.potepan.com/interview">INTERVIEW<br><span>受講生の声</span></a></li>
+            <li><a href="https://camp.potepan.com/faq">FAQ<br><span>よくある質問</span></a></li>
+            <li><a href="https://camp.potepan.com/recruit">RECRUIT<br><span>採用企業様へ</span></a></li>
+            <li><a href="https://camp.potepan.com/courses/free-under-29">U29<br><span>29歳以下の方へ</span></a></li>
+          </ul>
+        </nav>
+
+        <!-- カウンセリングボタン -->
+        <a href="https://camp.potepan.com/contact" class="header__button">無料カウンセリング</a>
+
+        <!-- メニューボタン(ハンバーガー) トグル on/off -->
+        <input type="checkbox" id="header-hamburger-toggle" class="header__hamburger-toggle">
+
+        <label for="header-hamburger-toggle" class="header__hamburger" aria-label="メニューを開く">
+          <span class="header__hamburger-line"></span>
+          <span class="header__hamburger-line"></span>
+          <span class="header__hamburger-line"></span>
+        </label>
+
+        <!-- スマホ用オーバーレイ -->
+        <div class="hamburger-overlay">
+          <label for="header-hamburger-toggle" class="hamburger-overlay__bg" aria-label="メニューを閉じる"></label>
+
+          <nav class="hamburger-overlay__nav">
+            <ul class="hamburger-overlay__list">
+              <li><a href="https://camp.potepan.com/content"><span>CONTENT</span><small>学習内容</small></a></li>
+              <li><a href="https://camp.potepan.com/interview"><span>INTERVIEW</span><small>受講生の声</small></a></li>
+              <li><a href="https://camp.potepan.com/faq"><span>FAQ</span><small>よくある質問</small></a></li>
+              <li><a href="https://camp.potepan.com/recruit"><span>RECRUIT</span><small>採用企業様へ</small></a></li>
+              <li><a href="https://camp.potepan.com/courses/free-under-29"><span>U29</span><small>29歳以下の方へ</small></a></li>
+            </ul>
+
+            <a href="https://camp.potepan.com/contact" class="hamburger-overlay__button">無料カウンセリング</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="first-view">
+        <div class="first-view__text">
+          <!-- first view -->
+          <div class="first-view__badge">
+            <img
+              src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/badge.svg"
+              alt="Webエンジニア輩出 No.1"
+              class="first-view__badge-image"
+              width="204"
+              height="204"
+            >
+
+            <h1 class="first-view__badge-title">
+              実践的カリキュラムと<br>
+              豊富な提携求人で<br>
+              確実にITエンジニアへ
+            </h1>
+
+            <!-- カウンセリングリンクへ -->
+            <a href="https://camp.potepan.com/contact" class="first-view__button">まずは無料カウンセリングへ</a>
+
+            <!-- 調査結果の説明文 -->
+            <p class="first-view__caption">
+              ※ショッパーズアイ「プログラミングスクール10社を対象にしたサイト比較イメージ調査<br>
+              （2020年5月22日〜25日）」より全国の22〜49歳の男女691名へのインターネット調査
+            </p>
+
+          </div>
+        </div>
+          
+        <div class="first-view__image">
+          <!-- visual -->
+          <img 
+            class="fv-triangle--left"
+            src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/left-rectangle.svg"
+            alt="左上三角"
+            width="348"
+            height="348"
+          >
+
+          <img
+            class="fv-triangle--right"
+            src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/right-rectangle.svg"
+            alt="右上三角"
+            width="348"
+            height="348"
+          >
+
+          <img
+            class="fv-curve"
+            src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/fill-rectangle.svg"
+            alt="長い円形"
+          >
+
+          <img
+            class="fv-person"
+            src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/main-visual.webp"
+            alt="人物"
+            width="775"
+            height="auto"
+          >
+
+          <img
+            class="fv-sp"
+            src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/whole-visual.webp"
+            alt="メインビジュアル"
+          >
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>
